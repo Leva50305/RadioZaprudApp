@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 html {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	user-select: none;
 	overflow: hidden;
 }
 body {
@@ -20,22 +22,32 @@ footer {
 	background-color: #b11212;
 }
 main {
-	line-height: 10%;
+	text-align: center;
 	margin-left: 1%;
 	font-size: 70;
 	color: white;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
 }
 .oracle {
 	z-index: -1;
-	position: absolute;
-	right: -200;
-	top: -50;
-	width: 100%;
-	height: auto;
+	width: 80%;
+  	height: auto;
+  	object-fit: contain;
+  	object-position: center;
+
 }
 .headerimg {
 	width: 3000;
 	height: 100;
+}
+.enableSelect {
+	user-select: text;
+}
+.p3-title {
+    
+    width: 150%;
+}
+.p3-artistInfo {
+	width: 150%;
 }
