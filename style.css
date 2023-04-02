@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+html {
+	overflow: hidden;
+}
+body {
+	margin: 0;
+	background-color: black;
+}
+header {
+	width: 100%;
+	background-color: red;
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	background-color: #b11212;
+}
+main {
+	line-height: 10%;
+	margin-left: 1%;
+	font-size: 70;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	height: 100%;
+}
+.oracle {
+	z-index: -1;
+	position: absolute;
+	right: -200;
+	top: -50;
+	width: 100%;
+	height: auto;
+}
+.headerimg {
+	width: 3000;
+	height: 100;
+}
